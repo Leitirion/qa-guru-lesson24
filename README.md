@@ -1,22 +1,12 @@
 # Автотесты на **Prooftech IT**, [**https://www.prooftechit.com**](https://www.prooftechit.com)
 
 ## Стек и инструменты
-Тесты написаны на Java + JUnit5 + Selenide + Gradle
+Тесты написаны на Java + JUnit5 + Selenide + Gradle, запуск и прогон тестов через Jenkins + Selenoid с отчетами в Allure + Telegram
 
-| Java | Gradle | Junit5 | Selenide |
-|:----:|:------:|:------:|:--------:|
-| <img src="./src/test/resources/JAVA.svg" width="40" height="40"> | <img src="./src/test/resources/Gradle.svg" width="40" height="40"> | <img src="./src/test/resources/Junit5.svg" width="40" height="40"> | <img src="./src/test/resources/Selenide.svg" width="40" height="40"> |
+| Java | Gradle | Junit5 | Selenide | Jenkins | Selenoid |Allure Report | Telegram |
+|:----:|:------:|:------:|:--------:|:-------:|:--------:|:------------:|:--------:|
+| <img src="./src/test/resources/JAVA.svg" width="40" height="40"> | <img src="./src/test/resources/Gradle.svg" width="40" height="40"> | <img src="./src/test/resources/Junit5.svg" width="40" height="40"> | <img src="./src/test/resources/Selenide.svg" width="40" height="40"> | <img src="./src/test/resources/Jenkins.svg" width="40" height="40"> | <img src="./src/test/resources/Selenoid.svg" width="40" height="40"> | <img src="./src/test/resources/Allure Report.svg" width="40" height="40"> | <img src="./src/test/resources/Telegram.svg" width="40" height="40"> |
 
-Запуск и прогон тестов через Jenkins + Selenoid
-
-| Jenkins | Selenoid | 
-|:--------:|:-------------:|
-| <img src="./src/test/resources/Jenkins.svg" width="40" height="40"> | <img src="./src/test/resources/Selenoid.svg" width="40" height="40"> | 
-
-С отчетами в Allure + Telegram
-| Allure Report | Telegram |
-|:---------:|:--------:|
-| <img src="./src/test/resources/Allure Report.svg" width="40" height="40"> | <img src="./src/test/resources/Telegram.svg" width="40" height="40"> |
 
 ## Запуск через [**Jenkins**](https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/)
 
