@@ -1,4 +1,7 @@
-# Автотесты на **Prooftech IT**, [**https://www.prooftechit.com**](https://www.prooftechit.com)
+# Автотесты на [**Prooftech IT**](https://www.prooftechit.com)
+```bash
+https://www.prooftechit.com
+```
 
 ## Стек и инструменты
 Тесты написаны на Java + JUnit5 + Selenide + Gradle, запуск и прогон тестов через Jenkins + Selenoid с отчетами в Allure + Telegram
@@ -53,6 +56,9 @@ allure serve build/allure-results
 ```
 
 ## Запуск и прогон тестов осуществляется в [**Selenoid**](https://selenoid.autotests.cloud/#/)
+```bash
+https://selenoid.autotests.cloud/#/
+```
 
 ## Контакты
 :writing_hand: :iphone: Telegram - [**@Leitirion**](https://t.me/leitirion)
