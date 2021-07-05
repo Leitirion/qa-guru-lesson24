@@ -1,4 +1,4 @@
-# Автотесты на [**Prooftech IT**](https://www.prooftechit.com)
+#Автотесты для проверки работоспособности сайта и внутреннего функционала [**Prooftech IT**](https://www.prooftechit.com)
 ```bash
 https://www.prooftechit.com
 ```
