@@ -1,6 +1,6 @@
-# **Tests for guru.qa lesson #11**
+# **Tests for Prooftech IT guru.qa lesson #12**
 
-1) Open ```https://demoqa.com/automation-practice-form```
+1) Open ```https://www.prooftechit.com```
 2) Test form (```inputs, calendar, screenshot uploader, etc```)
 3) Modal window should have your text, file or picture.
 4) Add allure report
