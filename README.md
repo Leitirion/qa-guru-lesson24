@@ -63,4 +63,4 @@ allure serve build/allure-results
 ## Запуск и прогон тестов осуществляется в [**Selenoid**](https://selenoid.autotests.cloud/#/)
 
 ## Контакты
-:writing_hand: :iphone: Telegram - @Leitirion
+:writing_hand: :iphone: Telegram - [**@Leitirion**](https://t.me/leitirion)
