@@ -5,7 +5,7 @@
 
 | Java | Gradle | Junit5 | Selenide |
 |:----:|:------:|:------:|:--------:|
-| <img src="images/JAVA.svg" width="40" height="40"> | <img src="images/Gradle.svg" width="40" height="40"> | <img src="images/Junit5.svg" width="40" height="40"> | <img src="images/Selenide.svg" width="40" height="40"> |
+| <img src="./src/test/resources/JAVA.svg" width="40" height="40"> | <img src="images/Gradle.svg" width="40" height="40"> | <img src="images/Junit5.svg" width="40" height="40"> | <img src="images/Selenide.svg" width="40" height="40"> |
 
 Запускаются и прогоняются через Jenkins + Selenoid
 
@@ -20,20 +20,20 @@
 
 ## Запуск через [**Jenkins**](https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/)
 
-### С какими параметрами можно запустить тесты в Jenkins:
+### Список параметров для запуска тестов в [**Jenkins**](https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/):
 
-* browser (default chrome)
-* browserVersion (default 89.0)
-* browserSize (default 1920x1080)
-* SELENOID_URL (url address from selenoid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
+* browser (по умолчанию chrome)
+* browserVersion (по умолчанию 89.0)
+* browserSize (по умолчанию 1920x1080)
+* SELENOID_URL (url адрес selenoid)
+* videoStorage (url address с видео)
+* threads (количество threads)
 
-### Пример странички с выбором параметров сборки
+### Скриншот страницы с выбором параметров сборки
 ![alt "JenkinsBuildPage"](./src/test/resources/JenkinsBuildPage.png)
 
-## Как запустить тесты из командной строки
-Запустить тесты с дефолтными параметрами:
+## Запуск тестов из командной строки и формирование отчета в Allure
+- Запуск тестов с параметрами по умолчанию:
 
 Для Windows:
 ```bash
@@ -44,7 +44,7 @@ gradle clean test
 ./gradlew clean test
 ```
 
-Запустить тесты с нужными нам параметрами:
+- Запуск тестов с указанными параметрами:
 
 Для Windows:
 ```bash
@@ -55,12 +55,12 @@ gradle clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selen
 ./gradlew clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
-Сформировать отчет в Allure:
+- Формирование отчета в Allure:
 ```bash
 allure serve build/allure-results
 ```
 
-## Прогоняются тесты в [**Selenoid**](https://selenoid.autotests.cloud/#/)
+## Запуск и работа тестов осуществляется в [**Selenoid**](https://selenoid.autotests.cloud/#/)
 
 ## Контакты
 :writing_hand: :iphone: Telegram - @Leitirion
