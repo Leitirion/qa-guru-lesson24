@@ -1,22 +1,22 @@
 # Автотесты на **Prooftech IT**, [**https://www.prooftechit.com**](https://www.prooftechit.com)
 
 ## Стек и инструменты
-Тесты были написаны на Java + JUnit5 + Selenide + Gradle
+Тесты написаны на Java + JUnit5 + Selenide + Gradle
 
 | Java | Gradle | Junit5 | Selenide |
 |:----:|:------:|:------:|:--------:|
-| <img src="./src/test/resources/JAVA.svg" width="40" height="40"> | <img src="images/Gradle.svg" width="40" height="40"> | <img src="images/Junit5.svg" width="40" height="40"> | <img src="images/Selenide.svg" width="40" height="40"> |
+| <img src="./src/test/resources/JAVA.svg" width="40" height="40"> | <img src="./src/test/resources/Gradle.svg" width="40" height="40"> | <img src="./src/test/resources/Junit5.svg" width="40" height="40"> | <img src="./src/test/resources/Selenide.svg" width="40" height="40"> |
 
-Запускаются и прогоняются через Jenkins + Selenoid
+Запуск и прогон тестов через Jenkins + Selenoid
 
 | Jenkins | Selenoid | 
 |:--------:|:-------------:|
-| <img src="images/Jenkins.svg" width="40" height="40"> | <img src="images/Selenoid.svg" width="40" height="40"> | 
+| <img src="./src/test/resources/Jenkins.svg" width="40" height="40"> | <img src="./src/test/resources/Selenoid.svg" width="40" height="40"> | 
 
 С отчетами в Allure + Telegram
 | Allure Report | Telegram |
 |:---------:|:--------:|
-| <img src="images/Allure Report.svg" width="40" height="40"> | <img src="images/Telegram.svg" width="40" height="40"> |
+| <img src="./src/test/resources/Allure Report.svg" width="40" height="40"> | <img src="./src/test/resources/Telegram.svg" width="40" height="40"> |
 
 ## Запуск через [**Jenkins**](https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/)
 
@@ -60,7 +60,7 @@ gradle clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selen
 allure serve build/allure-results
 ```
 
-## Запуск и работа тестов осуществляется в [**Selenoid**](https://selenoid.autotests.cloud/#/)
+## Запуск и прогон тестов осуществляется в [**Selenoid**](https://selenoid.autotests.cloud/#/)
 
 ## Контакты
 :writing_hand: :iphone: Telegram - @Leitirion
