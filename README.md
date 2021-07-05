@@ -34,20 +34,24 @@
 
 ## Как запустить тесты из командной строки
 Запустить тесты с дефолтными параметрами:
+
+Для Windows:
 ```bash
-gradle clean test (для Windows)
+gradle clean test
 ```
+Для MacOS:
 ```bash
-./gradlew clean test (для MacOS)
+./gradlew clean test
 ```
 
 Запустить тесты с нужными нам параметрами:
-```bash
+
 Для Windows:
+```bash
 gradle clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
-```bash
 Для MacOS:
+```bash
 ./gradlew clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
 ```
 
