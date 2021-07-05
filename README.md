@@ -28,16 +28,6 @@ https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/
 ![alt "JenkinsBuildPage"](./src/test/resources/JenkinsBuildPage.png)
 
 ## Запуск тестов из командной строки и формирование отчета в Allure
-- Запуск тестов с параметрами по умолчанию:
-
-Для Windows:
-```bash
-gradle clean test
-```
-Для MacOS:
-```bash
-./gradlew clean test
-```
 
 - Запуск тестов с указанными параметрами:
 
