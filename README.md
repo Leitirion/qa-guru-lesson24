@@ -11,7 +11,9 @@
 ## Запуск через [**Jenkins**](https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/)
 
 ### Список параметров для запуска тестов в [**Jenkins**](https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/):
-
+```bash
+https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/
+```
 * browser (по умолчанию chrome)
 * browserVersion (по умолчанию 89.0)
 * browserSize (по умолчанию 1920x1080)
