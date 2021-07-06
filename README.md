@@ -52,6 +52,8 @@ allure serve build/allure-results
 ```bash
 https://selenoid.autotests.cloud/#/
 ```
+### Пример прогона теста в Selenoid
+![alt "Video from Selenoid"](./src/test/resources/TestExample.gif)
 
 ## После запуска и прогона тестов формируется отчет в Allure
 ![alt "AllureNotifications"](./src/test/resources/AllureNotifications.png)
