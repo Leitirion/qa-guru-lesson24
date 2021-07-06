@@ -54,9 +54,9 @@ https://selenoid.autotests.cloud/#/
 ```
 
 ## После запуска и прогона тестов формируется отчет в Allure
-![alt "Выбор параметров"](./src/test/resources/AllureNotifications.png)
+![alt "AllureNotifications"](./src/test/resources/AllureNotifications.png)
 Внутри отчета можно увидеть полезную информацию такую как: логи, скриншоты и видео прохождения каждого теста
-![alt "Выбор параметров"](./src/test/resources/Attachments.png)
+![alt "Attachments.png"](./src/test/resources/Attachments.png)
 
 ## Кроме того в Telegram отправляется уведомление с результатами
 ![alt "Telegram"](./src/test/resources/TelegramNotifications.png)
