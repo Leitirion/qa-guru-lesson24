@@ -1,7 +1,6 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
-
 import static com.codeborne.selenide.Selenide.*;
 
 public class PageElementsAndHelpers {
@@ -14,9 +13,10 @@ public class PageElementsAndHelpers {
         return this;
     }
 
-    public void selectButton (){
+    public void VacancyButton (){
         subjectButton1.click();
     }
+
 
 //    private SelenideElement
 //            genderInput = $("#genterWrapper"),
