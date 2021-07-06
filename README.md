@@ -60,10 +60,10 @@ https://selenoid.autotests.cloud/#/
 
 ## Кроме того в Telegram отправляется уведомление с результатами
 ![alt "Telegram"](./src/test/resources/TelegramNotifications.png)
-Или по ссылке ниже, где ```{NUMBER_FOR_JENKINS_JOB}``` число Job в Jenkins:
+Или по ссылке ниже, где ```{NUMBER_FOR_JENKINS_BUILD}``` номер билда в Jenkins:
 ```bash
-https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/{NUMBER_FOR_JENKINS_JOB}/allure/
+https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/{NUMBER_FOR_JENKINS_BUILD}/allure/
 ```
 
-## Контакты
+## Контакты для связи
 :writing_hand: :iphone: Telegram - [**@Leitirion**](https://t.me/leitirion)
