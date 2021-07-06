@@ -1,4 +1,5 @@
 # Автотесты для проверки работоспособности сайта и внутреннего функционала [**Prooftech IT**](https://www.prooftechit.com)
+Или по ссылке ниже:
 ```bash
 https://www.prooftechit.com
 ```
@@ -14,6 +15,7 @@ https://www.prooftechit.com
 ## Запуск через [**Jenkins**](https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/)
 
 ### Список параметров для запуска тестов в [**Jenkins**](https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/):
+Или по ссылке ниже:
 ```bash
 https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/
 ```
@@ -31,14 +33,14 @@ https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/
 
 - Запуск тестов с указанными параметрами:
 
-Для Windows:
-```bash
-gradle clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
-Для MacOS:
-```bash
-./gradlew clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
+    - Для Windows:
+        ```bash
+        gradle clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+        ```
+    - Для MacOS:
+        ```bash
+        ./gradlew clean -DselenoidUrl=selenoid.autotests.cloud -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+        ```
 
 - Формирование отчета в Allure:
 ```bash
@@ -46,6 +48,7 @@ allure serve build/allure-results
 ```
 
 ## Запуск и прогон тестов осуществляется в [**Selenoid**](https://selenoid.autotests.cloud/#/)
+Или по ссылке ниже:
 ```bash
 https://selenoid.autotests.cloud/#/
 ```
@@ -57,6 +60,7 @@ https://selenoid.autotests.cloud/#/
 
 ## Кроме того в Telegram отправляется уведомление с результатами
 ![alt "Telegram"](./src/test/resources/TelegramNotifications.png)
+Или по ссылке ниже, где ```{NUMBER_FOR_JENKINS_JOB}``` число Job в Jenkins:
 ```bash
 https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/{NUMBER_FOR_JENKINS_JOB}/allure/
 ```
