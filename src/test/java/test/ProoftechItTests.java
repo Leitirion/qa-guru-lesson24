@@ -79,7 +79,7 @@ public class ProoftechItTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Открытие страницы Вакансия, найти Актуальные вакансии, нажать на многоточие и выбрать 'Поделиться постом'")
+    @DisplayName("Открытие страницы Вакансия, найти вакансии 'Сейчас не ищем, но интересны', перейти по ним и проверить текст описания на странице'")
     void openVacancyPageFindTitle() {
         step("Open ${URL}", () -> {
             PageElementsAndHelpers.openPage(URL);
@@ -99,7 +99,7 @@ public class ProoftechItTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Открытие страницы Вакансия, найти Актуальные вакансии, нажать на многоточие и выбрать 'Поделиться постом'")
+    @DisplayName("Открытие страницы Вакансия, найти внизу главной страницы ссылку на Вакансии, перейти по ней, проверить текст описания на странице'")
     void openVacancyPageWithBottomLinkAndFindTitle() {
         step("Open ${URL}", () -> {
             PageElementsAndHelpers.openPage(URL);

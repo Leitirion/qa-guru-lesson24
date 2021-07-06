@@ -50,5 +50,13 @@ allure serve build/allure-results
 https://selenoid.autotests.cloud/#/
 ```
 
+## После запуска и прогона тестов формируется отчет в Allure
+![alt "Выбор параметров"](./src/test/resources/AllureNotifications.png)
+Внутри отчета можно увидеть полезную информацию такую как: логи, скриншоты и видео прохождения каждого теста
+![alt "Выбор параметров"](./src/test/resources/Attachments.png)
+
+## Кроме того в Telegram отправляется уведомление с результатами
+![alt "Telegram"](./src/test/resources/TelegramNotifications.png)
+
 ## Контакты
 :writing_hand: :iphone: Telegram - [**@Leitirion**](https://t.me/leitirion)
