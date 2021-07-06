@@ -64,6 +64,7 @@ https://selenoid.autotests.cloud/#/
 
 ## Кроме того в Telegram отправляется уведомление с результатами
 ![alt "Telegram"](./src/test/resources/TelegramNotifications.png)
+
 Или по ссылке ниже, где ```{NUMBER_FOR_JENKINS_BUILD}``` номер билда в Jenkins:
 ```bash
 https://jenkins.autotests.cloud/job/prooftechit-qa-guru-lesson12/{NUMBER_FOR_JENKINS_BUILD}/allure/
