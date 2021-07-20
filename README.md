@@ -9,7 +9,7 @@ https://www.prooftechit.com
 2. [Запуск через Jenkins](#запуск-через-Jenkins)
 3. [Запуск тестов из командной строки и формирование отчета в Allure](#запуск-тестов-из-командной-строки-и-формирование-отчета-в-Allure) 
 4. [Запуск и прогон тестов в Selenoid](#запуск-и-прогон-тестов-осуществляется-в)
-5. [Отчет в Allure](#после-запуска-и-прогона-тестов-формируется-отчет-в-Allure)
+5. [Отчет в Allure и Allure TestOps](#после-запуска-и-прогона-тестов-формируется-отчет-в-Allure-и-Allure-TestOps)
 6. [Уведомления в Telegram](#формируется-уведомление-в-Telegram-с-результатами)
 7. [Контакты](#Контакты)
 
@@ -68,12 +68,16 @@ https://selenoid.autotests.cloud/#/
 ![alt "Video from Selenoid"](./src/test/resources/TestExample.gif)
 
 ---------
-## После запуска и прогона тестов формируется отчет в Allure
+## После запуска и прогона тестов формируется отчет в Allure и Allure TestOps
 ![alt "AllureNotifications"](./src/test/resources/AllureNotifications.png)
 
 Внутри отчета можно увидеть полезную информацию такую как: логи, скриншоты и видео прохождения каждого теста:
 
 ![alt "Attachments.png"](./src/test/resources/Attachments.png)
+
+Отчеты в [**Allure TestOps:**](https://allure.autotests.cloud/project/270/launches)
+
+![alt "AllureTestOps"](./src/test/resources/AllureTestOpsNotifications.png)
 
 ---------
 ## Формируется уведомление в Telegram с результатами
